@@ -259,7 +259,7 @@ body{
         box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
     }
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:360px){
     .section{
         display: grid;
         justify-content: center;
