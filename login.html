@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="img/logo.png" sizes="16x16" type="image/png"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+            <h1>Login into your account</h1>
+        </div>
+        <form action="index.html">
+            <div class="login_form">
+                <span><box-icon name='user' ></box-icon></span>
+                <input type="text" name="uname" id="uname" placeholder="Username">
+            </div>
+            <div class="login_form">
+                <span><box-icon name='lock-alt'></box-icon></span>
+                <input type="password" name="pass" id="pass" placeholder="Password">
+            </div>
+            <div class="remember">
+                <input type="checkbox" checked="checked" name="remember" id="remember">
+                Remember me
+                <a href="forget_psw.html">Forget Password</a>
+            </div>
+            <button type="submit"><a href="index.html">Login</a></button>
+        </form>
+        <div class="lang">
+            <a href="#"><img src="img/Flag-Cambodia.jpg" alt="khmer" width="35" height="25"></a>
+            <a href="#"><img src="img/Flag-United-States-of-America.jpg" alt="usa" width="35" height="25"> </a>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="js/scripts.js"></script>
+<script src="font-awesome-5/js/all.js"></script>
+</html>
