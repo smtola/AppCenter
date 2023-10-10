@@ -10,7 +10,7 @@ body{
     align-items: center;
     background: #dbdbdb;
     justify-content: center;
-    min-height: 88vh;
+    min-height: 70vh;
 }
 .wrapper{
     position: relative;

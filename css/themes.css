@@ -32,10 +32,11 @@ body{
     text-transform: uppercase;
     color:#fff;
     padding:0 .7rem;
+    font-size: 1.5rem;
 }
 .menu {
     position: absolute;
-    right: 2rem;
+    right: 2.3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,15 +57,17 @@ body{
     cursor: pointer;
 }
 .dropdown-items{
-    width: 25vh;
+    width: 35vh;
     position:absolute;
-    background-color: #848484;
+    background-color: #d3d2d2;
     border-radius: 5px;
-    box-shadow:0 2px 8px 0 rgba(255,255,255,0.4);
-    padding:10px 15px;
+    box-shadow:0 2px 8px 0 rgba(52, 52, 52, 0.4);
+    padding:1rem 1.5rem;
     right: .1rem;
+    top:4.4rem;
     display:none;
     transition: display .5s ease;
+    z-index: 1;
 }
 .navbar-nav {
     font-weight: bold;
@@ -73,8 +76,9 @@ body{
     list-style: none;
 }
 .navbar-nav> .navbar-items > .navbar-link {
+    margin:25px 0;
     text-decoration: none;
-    color:#fff;
+    color:#3e3e3e;
     transition: all .5s ease;
 }
 .navbar-link:hover{
@@ -84,55 +88,61 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    padding:5rem 10rem;
+    min-height:65vh;
 }
 .container-fluid{
+    position: relative;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap:25px;
+    grid-template-columns: repeat(5,1fr);
+    gap:18px;
 }
-.container-fluid .content {
+ .content {
+    overflow-x: hidden;
+    padding: 28px;
+    background: #dedddd;
     display: grid;
     justify-content: center;
-    align-content: center;
-    padding:15px 10px;
-    background: #ffffff;
-    box-shadow: 0 4px 5px 0 rgba(77, 77, 77, 0.75);
-    border-radius: 10px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
 }
-.content a > img{
-    border-radius: 10px;
-    width: 100%;
-    height: 145px;
-    transition: all 0.5 ease;
+.content img {
+    width: 15vh;
+    height: 15vh;
+    transition: all 0.5s ease;
 }
-.content a > img:hover{
+.content img:hover{
     transform: scale(1.02);
 }
-.content h2{
-    font-size: 1rem;
+.content > h2 {
     text-align: center;
-    font-weight: bold;
-    color:#01a6ff;
+    margin-top:15px;
+    font-size: 1rem;
 }
-@media screen and (max-width:1560px) {
-    .container-fluid{
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        gap:15px;
-    }
-}
+
+
+
 @media screen and (max-width:1200px) {
     .section{
         display: grid;
         justify-content: center;
         align-content: center;
-        padding:5rem 7rem;
+        min-height:100vh;
     }
     .container-fluid{
+        position: relative;
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap:15px;
+        grid-template-columns: repeat(4,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 28px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
     }
 }
 @media screen and (max-width:980px) {
@@ -140,15 +150,26 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        padding:5rem 1rem;
+        min-height:100vh;
     }
     .container-fluid{
+        position: relative;
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        gap:15px;
+        grid-template-columns: repeat(3,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 28px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
     }
 }
-@media screen and (max-width:760px) {
+
+@media screen and (max-width:680px) {
     .menu > h2{
         font-size: 1rem;
         color:#fff;
@@ -164,25 +185,109 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        padding:5rem 1rem;
+        min-height:78vh;
     }
     .container-fluid{
+        position: relative;
         display: grid;
-        grid-template-columns: auto auto auto;
-        gap:15px;
+        grid-template-columns: repeat(3,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 10px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
+    }
+    .logo a > h1{
+        text-transform: uppercase;
+        color:#fff;
+        padding:0 .7rem;
+        font-size: 1rem;
+    }
+    .logo a > img{
+        width:55px;
+        height: 55px;
     }
 }
-@media screen and (max-width:580px) {
+@media screen and (max-width:580px){
     .section{
         display: grid;
         justify-content: center;
         align-content: center;
-        padding:5rem 1rem;
+        min-height:150vh;
     }
     .container-fluid{
+        position: relative;
         display: grid;
-        grid-template-columns: auto auto;
-        gap:15px;
+        grid-template-columns: repeat(2,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 28px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
+    }
+}
+@media screen and (max-width:480px){
+    .section{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        min-height:128vh;
+    }
+    .container-fluid{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 10px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
+    }
+}
+@media screen and (max-width:390px){
+    .section{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        min-height:110vh;
+    }
+    .container-fluid{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:18px;
+    }
+    .content {
+        padding: 8px;
+        background: #dedddd;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
+    }
+    .content img {
+        width: 12vh;
+        height: 12vh;
+    }
+    .content > h2 {
+        text-align: center;
+        font-size: 1rem;
     }
 }
 
