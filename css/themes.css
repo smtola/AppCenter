@@ -88,7 +88,7 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height:65vh;
+    min-height:75vh;
 }
 .container-fluid{
     position: relative;
@@ -127,7 +127,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:100vh;
+        min-height:110vh;
     }
     .container-fluid{
         position: relative;
@@ -150,7 +150,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:100vh;
+        min-height:110vh;
     }
     .container-fluid{
         position: relative;
@@ -185,7 +185,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:78vh;
+        min-height:92vh;
     }
     .container-fluid{
         position: relative;
@@ -218,7 +218,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:150vh;
+        min-height:178vh;
     }
     .container-fluid{
         position: relative;
@@ -241,7 +241,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:128vh;
+        min-height:148vh;
     }
     .container-fluid{
         position: relative;
