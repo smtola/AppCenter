@@ -241,7 +241,7 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:148vh;
+        min-height:128vh;
     }
     .container-fluid{
         position: relative;
