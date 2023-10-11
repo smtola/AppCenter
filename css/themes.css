@@ -177,7 +177,6 @@ body{
 .cnt-staff-app 
 {
     padding:1.5rem 5rem;
-    background:var(--text-info-color);
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
@@ -209,7 +208,6 @@ body{
     .cnt-staff-app 
     {
         padding:1.5rem 2rem;
-        background:var(--text-info-color);
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
@@ -262,7 +260,6 @@ body{
     .cnt-staff-app 
 {
     padding:1rem 1rem;
-    background:var(--text-info-color);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -302,7 +299,6 @@ body{
     .cnt-staff-app 
     {
         padding:1rem;
-        background:var(--text-info-color);
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 20px;
@@ -342,7 +338,6 @@ body{
     .cnt-staff-app 
     {
         padding:1rem;
-        background:var(--text-info-color);
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
