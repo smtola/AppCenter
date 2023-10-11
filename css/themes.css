@@ -257,7 +257,7 @@ body{
         width:55px;
         height: 55px;
     }
-    .cnt-staff-app 
+.cnt-staff-app 
 {
     padding:1rem 1rem;
     display: grid;
@@ -272,6 +272,10 @@ body{
     background: var(--bg-color);
     border-radius: 5px;
     padding:1.5rem 0;
+}
+.content-box-item img{
+    width: 85px;
+    height: 85px;
 }
 }
 @media screen and (max-width:580px){
@@ -351,6 +355,15 @@ body{
         border-radius: 5px;
         padding:.5rem 0;
     }
+    .content-box-item img{
+        width: 65px;
+        height: 65px;
+    }
+    .content-box-item > h1{
+        text-align: center;
+        font-size: 10px;
+        margin: 10px;
+     }
 }
 @media screen and (max-width:360px){
     .section{
