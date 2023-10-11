@@ -398,7 +398,8 @@ body{
     }
     
     .content-box-item img{
-        height: 79px;
+        width: 49px;
+        height: 49px;
     }
     .content-box-item > h1{
         text-align: center;
