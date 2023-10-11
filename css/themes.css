@@ -96,9 +96,9 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height:75vh;
 }
 .container-fluid{
+    padding:1rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -156,9 +156,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:110vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -187,9 +187,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:110vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -230,9 +230,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:100vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -283,9 +283,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:178vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -322,9 +322,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:128vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -370,9 +370,9 @@ body{
         display: grid;
         justify-content: center;
         align-content: center;
-        min-height:97vh;
     }
     .container-fluid{
+        padding:1rem;
         position: relative;
         display: grid;
         grid-template-columns: repeat(2,1fr);
