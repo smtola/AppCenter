@@ -358,17 +358,20 @@ body{
     }
 }
 @media screen and (max-width:480px){
-    .dropdown-items{
-        width: 35vh;
-        position:absolute;
-        background-color: #d3d2d2;
-        border-radius: 5px;
-        box-shadow:0 2px 8px 0 rgba(52, 52, 52, 0.4);
-        padding:1rem 1.5rem;
+    .navbar-nav{
+        flex-wrap: wrap;
+        position: absolute;
         top:3rem;
-        display:none;
-        transition: display .5s ease;
-        z-index: 1;
+        padding:1rem;
+        width: 256px;
+        right:0;
+        border-radius: 5px;
+        list-style: none;
+        display: inline;
+        row-gap: 1.5rem;
+        display: none;
+        background-color: #2c633c;
+        transition: all 0.5s ease;
     }
     .section{
         display: grid;
