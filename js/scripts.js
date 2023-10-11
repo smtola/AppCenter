@@ -1,5 +1,6 @@
-var menu = document.getElementById('menu');
+const toggle = document.querySelector('.toggle');
+const navList = document.querySelector('.navbar-nav');
 
-function toggleMenu() {
-    menu.style.display = 'block';
-}
+toggle.addEventListener('click',() => {
+    navList.classList.toggle('active');
+});
