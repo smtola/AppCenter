@@ -155,6 +155,11 @@ body{
     border-radius: 5px;
     padding:2rem 0;
 }
+.content-box-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content-box-item > h1{
    text-align: center;
    font-size: 16px;
