@@ -63,6 +63,7 @@ body{
     display: inline-block;
     font-size: 2rem;
     cursor: pointer;
+    color:var(--bg-color);
 }
 .dropdown-items{
     width: 35vh;
@@ -247,6 +248,12 @@ body{
         border-radius: 5px;
         box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
     }
+    .dropdown-menu{
+        position: relative;
+        display: inline-block;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
     .logo a > h1{
         text-transform: uppercase;
         color:#fff;
@@ -254,8 +261,8 @@ body{
         font-size: 1rem;
     }
     .logo a > img{
-        width:55px;
-        height: 55px;
+        width:45px;
+        height: 45px;
     }
 .cnt-staff-app 
 {
