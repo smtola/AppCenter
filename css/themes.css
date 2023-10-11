@@ -353,15 +353,15 @@ body{
         align-content: center;
         background: var(--bg-color);
         border-radius: 5px;
-        padding:.5rem 0;
+        padding:1.3rem 0;
     }
     .content-box-item img{
-        width: 65px;
-        height: 65px;
+        width: 79px;
+        height: 79px;
     }
     .content-box-item > h1{
         text-align: center;
-        font-size: 10px;
+        font-size: 13px;
         margin: 10px;
      }
 }
