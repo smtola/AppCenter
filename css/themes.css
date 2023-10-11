@@ -122,6 +122,11 @@ body{
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 4px 5px 0 rgba(52, 52, 52, 0.4);
+    transition: all 0.4s ease;
+}
+.content:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 75px 5px rgba(0, 0, 0, 0.42);
 }
 .content img {
     width: 15vh;
@@ -157,6 +162,10 @@ body{
     background: var(--bg-color);
     border-radius: 5px;
     padding:2rem 0;
+    transition: all 0.5s ease;
+}
+.content-box-item:hover{
+    transform: scale(1.03);
 }
 .content-box-item a {
     display: flex;
