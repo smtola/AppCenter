@@ -17,9 +17,13 @@ body{
     background:#ffffff;
 }
 .navbar{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     width: 100%;
     height: auto;
     background-color: #2c633c;
+    z-index: 2;
 }
 .container{
     display: flex;
@@ -97,6 +101,7 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
+    overflow-x: hidden;
 }
 .container-fluid{
     padding:1rem;
@@ -119,6 +124,10 @@ body{
     width: 15vh;
     height: 15vh;
     transition: all 0.5s ease;
+}
+.content a {
+    display: flex;
+    justify-content: center;
 }
 .content img:hover{
     transform: scale(1.02);
@@ -325,6 +334,18 @@ body{
     }
 }
 @media screen and (max-width:480px){
+    .dropdown-items{
+        width: 35vh;
+        position:absolute;
+        background-color: #d3d2d2;
+        border-radius: 5px;
+        box-shadow:0 2px 8px 0 rgba(52, 52, 52, 0.4);
+        padding:1rem 1.5rem;
+        top:3rem;
+        display:none;
+        transition: display .5s ease;
+        z-index: 1;
+    }
     .section{
         display: grid;
         justify-content: center;
@@ -370,8 +391,8 @@ body{
         border-radius: 5px;
         padding:1.3rem 0;
     }
+    
     .content-box-item img{
-        width: 79px;
         height: 79px;
     }
     .content-box-item > h1{
